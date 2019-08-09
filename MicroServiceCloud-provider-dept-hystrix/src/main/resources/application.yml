@@ -1,0 +1,19 @@
+server:
+  port: 8071
+spring:
+  application:
+    name: dept-provider
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: Provider-hystrix-8071
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+
+info:
+  app.name: microservicecloud
+  companyname: zhangjianyu
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$

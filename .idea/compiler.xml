@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="MicroServiceCloud-api" />
+        <module name="MicroServiceCloud-consumer-dept-8082" />
+        <module name="MicroServiceCloud-consumer-feign" />
+        <module name="MicroServiceCloud-EurekaServer-7001" />
+        <module name="MicroServiceCloud-provider-dept-8071" />
+        <module name="MicroServiceCloud-provider-dept-8072" />
+        <module name="MicroServiceCloud-provider-dept-8081" />
+        <module name="MicroServiceCloud-provider-dept-hystrix" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="MicroServiceCloud-provider-dept-8081 (1)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
